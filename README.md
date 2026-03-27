@@ -87,7 +87,7 @@ The CI pipeline performs:
 
 ## Pipeline diagram
 
-![Pipeline Diagram](images/Flowchart_Pipeline.png)
+![Pipeline Diagram](images/Flowchart_Pipeline.drawio.png)
 
 ## Observed bugs and Issue reports
 
