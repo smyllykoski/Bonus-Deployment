@@ -31,11 +31,13 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Azure Login (simulated)
+        if: false # prevents running while keeping the step in the workflow
         uses: azure/login@v2
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }} # placeholder
 
       - name: Deploy to Azure Web App (simulated)
+        if: false
         uses: azure/webapps-deploy@v2
         with:
           app-name: "placeholder-webapp"
