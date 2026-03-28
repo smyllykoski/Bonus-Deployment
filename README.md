@@ -86,8 +86,9 @@ The CI pipeline performs:
   Workflow also supports `workflow_dispatch`, allowing manual triggering.
 
 ## Pipeline diagram
-
-![Pipeline Diagram](images/Flowchart_Pipeline.drawio.png)
+<p align="center">
+<img src="images/Flowchart_Pipeline.drawio.png" width="200">
+</p>
 
 ## Observed bugs and Issue reports
 
