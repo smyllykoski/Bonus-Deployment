@@ -32,7 +32,7 @@ jobs:
 
       - name: Azure Login (simulated)
         if: false # prevents running while keeping the step in the workflow
-        uses: azure/login@v2
+        uses: azure/login@v3
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }} # placeholder
 

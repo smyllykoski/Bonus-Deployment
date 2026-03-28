@@ -62,7 +62,7 @@ The CI pipeline performs:
   ```yaml
     - name: Azure Login (simulated)
         if: false
-        uses: azure/login@v2
+        uses: azure/login@v3
         with:
             creds: ${{ secrets.AZURE_CREDENTIALS }}
   ```
